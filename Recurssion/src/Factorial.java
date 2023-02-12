@@ -7,8 +7,8 @@ public class Factorial {
             return 1;
         }
         int m = factorial(n - 1);
-        int fact = n * m;
-        return fact;
+        int result = n * m;
+        return result;
     }
 
     public static void main(String[] args) {
